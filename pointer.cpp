@@ -57,31 +57,17 @@ int main (){
         }
         cout<<endl;
     }
-    cout << "the another way of an printing "<<endl;
-    for(int i =1;i<=n;i++)
+    cout<<"the another way of printing "<<endl;
+    for ( int i =1;i<=n;i++)
     {
-        for(int j=1;j<=n;j++)
+        for (int j = 1; j<= n-i;j++)
         {
-            cout<<"*";
+            cout<<" ";
         }
-        cout<<endl;
-    }
-    cout << "the another way of an printing "<<endl;
-    for(int i =1;i<=n;i++)
-    {
-        for(int j=1;j<=i;j++)
+        for(int k =1;k<=i;k++)
         {
-            cout<<"*";
+            cout<<k;
         }
-        cout<<endl;
-    }
-    cout << "the another way of an printing "<<endl;
-    for(int i =1;i<=n;i++)
-    {
-        for(int j=1;j<=n-i+1;j++)
-        {
-            cout<<"*";
-        }
-        cout<<endl;
+        cout <<endl;
     }
 }
